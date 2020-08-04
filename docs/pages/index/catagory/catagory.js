@@ -17,7 +17,7 @@
         _parseTpl: function(){
             var parseTpl = '';
             $.ajaxSettings.async = false;
-            $.get('./../../../mock/head.json', function(result){
+            $.get('./../../mock/head.json', function(result){
                 if(result.code !== 0) return;
                 var data = result.data.primary_filter || [];
                 data.forEach(function(item, index){
