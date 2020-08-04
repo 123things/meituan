@@ -1,0 +1,17 @@
+.clearfix:after{
+    content: '';
+    display: block;
+    height: 0;
+    visibility: visible;
+    overflow: hidden;
+    clear: both;
+}
+.clearfix{
+    zoom:1;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}

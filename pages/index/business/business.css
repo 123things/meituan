@@ -1,0 +1,155 @@
+.business{
+    font-size: .6rem;
+    padding-bottom: 2.75rem;
+}
+.business-title{
+    margin-top: 1.25rem;
+    position: relative;
+}
+.business-title h4{
+    width: 4.175rem;
+    background-color: #fff;
+    text-align: center;
+    font-size: .75rem;
+    margin:0 auto;
+}
+.business-title i{
+    width: 50%;
+    height:0;
+    border: .05rem solid #a3a3a3;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    z-index: -1;
+    
+}
+.business-item{
+    box-sizing: border-box;
+    width:100%;
+    padding: 0 .5rem;
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+.business-item .content-icon{
+    width: 4.5rem;
+    height:3.425rem;
+}
+.content-icon img{
+    width:100%;
+    height:100%;
+}
+.business-item .content-desc{
+    box-sizing: border-box;
+    flex: 1;
+    padding-left: .375rem;
+    color:#656565;
+}
+.content-desc .desc-title{
+    font-size: .8rem;
+    color: #333333;
+    margin-bottom: .625rem;
+}
+.content-desc .desc-sale-info{
+    margin-bottom: .625rem;
+}
+.desc-sale-info .sale-info-left{
+    float: left;
+    display:flex;
+    align-items: flex-start;
+}
+.desc-sale-info .sale-info-right{
+    float: right;
+    display: flex;
+}
+.desc-sale-info .star{
+    margin-right: .375rem;
+}
+.star .star-item{
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    color: #ffd161;
+}
+
+.star .star-item.star-0{
+    background-image: -webkit-linear-gradient(to right, #e4e4e4 0%, #e4e4e4 0%);
+    background-image: linear-gradient(to right, #e4e4e4 0%, #e4e4e4 0%); 
+}
+.star .star-item.star-1{
+    background-image: -webkit-linear-gradient(to right, #ffd161 10%, #e4e4e4 10%);
+    background-image: linear-gradient(to right, #ffd161 10%, #e4e4e4 10%); 
+}
+.star .star-item.star-2{
+    background-image: -webkit-linear-gradient(to right, #ffd161 20%, #e4e4e4 20%);
+    background-image: linear-gradient(to right, #ffd161 20%, #e4e4e4 20%); 
+}
+.star .star-item.star-3{
+    background-image: -webkit-linear-gradient(to right, #ffd161 30%, #e4e4e4 30%);
+    background-image: linear-gradient(to right, #ffd161 30%, #e4e4e4 30%); 
+}
+.star .star-item.star-4{
+    background-image: -webkit-linear-gradient(to right, #ffd161 40%, #e4e4e4 40%);
+    background-image: linear-gradient(to right, #ffd161 40%, #e4e4e4 40%); 
+}
+.star .star-item.star-5{
+    background-image: -webkit-linear-gradient(to right, #ffd161 50%, #e4e4e4 50%);
+    background-image: linear-gradient(to right, #ffd161 50%, #e4e4e4 50%); 
+}
+.star .star-item.star-6{
+    background-image: -webkit-linear-gradient(to right, #ffd161 60%, #e4e4e4 60%);
+    background-image: linear-gradient(to right, #ffd161 60%, #e4e4e4 60%); 
+}
+.star .star-item.star-7{
+    background-image: -webkit-linear-gradient(to right, #ffd161 70%, #e4e4e4 70%);
+    background-image: linear-gradient(to right, #ffd161 70%, #e4e4e4 70%); 
+}
+.star .star-item.star-8{
+    background-image: -webkit-linear-gradient(to right, #ffd161 80%, #e4e4e4 80%);
+    background-image: linear-gradient(to right, #ffd161 80%, #e4e4e4 80%); 
+}
+.star .star-item.star-9{
+    background-image: -webkit-linear-gradient(to right, #ffd161 90%, #e4e4e4 90%);
+    background-image: linear-gradient(to right, #ffd161 90%, #e4e4e4 90%); 
+}
+.star .star-item.star-10{
+    background-image: -webkit-linear-gradient(to right, #ffd161 100%, #e4e4e4 100%);
+    background-image: linear-gradient(to right, #ffd161 100%, #e4e4e4 100%); 
+}
+/* .desc-sale-info .month-sale-num{} */
+.desc-sale-info .deliver-time{
+    box-sizing: border-box;
+    border-right: .05rem solid #656565;
+    padding-right: .25rem;
+    margin-right: .25rem;
+}
+/* .desc-sale-info .deliver-distance{
+} */
+
+.content-desc .desc-send-off-start-price{
+    margin-bottom: .625rem;
+}
+.desc-send-off-start-price .price-icon{
+    font-weight:700
+}
+.content-desc .desc-activity{
+    color:#898989;
+    margin-bottom: .625rem;
+}
+.desc-activity .activity-item{
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: row;
+}
+.activity-item img{
+    width: .4rem;
+    height:.4rem;
+}
+.isLoadding{
+    text-align: center;
+}

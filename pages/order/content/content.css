@@ -1,0 +1,115 @@
+.order-content{
+    padding-bottom: 3rem;
+}
+.order-content .order-item{
+    box-sizing: border-box;
+    width:100%;
+    border-bottom: .625rem solid #efefef;
+    padding:.4rem .75rem;
+}
+.order-item .item-top{
+    display: flex;
+    flex-direction: row;
+   
+    padding-bottom: .75rem;
+}
+.item-top  .item-icon{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+.item-top .item-icon img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+
+.item-top .item-info{
+    flex: 1;
+    margin-left: .625rem;
+}
+.item-top .item-info .info-title{
+    width:100%;
+    height: 2.35rem;
+    border-bottom: .0375rem solid #ebebeb;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+.item-top .info-title .title-name{
+    width: 8.125rem;
+    font-size: .75rem;
+    font-weight: 700;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right:  .5rem;
+}
+
+.item-top .info-title .title-status{
+    flex: 1;
+    font-size: .7rem;
+    color: #999;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-top .info-list .info-list-item{
+    height: 1.25rem;
+    font-size: .625rem;
+    color:#666;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.item-top .info-list-item .list-item-name{
+    flex:1;
+}
+.item-top .info-list-item .list-item-num{
+    width: .75rem;
+}
+.item-top .info-list-summary{
+    width: 100%;
+    height: 1.2rem;
+    font-size: .575rem;
+    color:#666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.item-bottom{
+    border-top:.025rem solid #ebebeb;
+    padding-top: .5rem;
+}
+.item-bottom .comment-btn{
+    width: 4.725rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    background: #ffd161;
+    font-size: .6rem;
+    color: #6b450a;
+    float:right;
+}
+.order-item .price{
+    font-size: .6rem;
+    color:#151515;
+    position: relative;
+    top: -0.05rem;
+    letter-spacing: .025rem;
+    margin-left: .075rem;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+.loadding{
+    font-size: .7rem;
+    text-align: center;
+}
