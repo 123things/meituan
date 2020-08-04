@@ -60,7 +60,7 @@
         _getData: function(){
             var data = [];
             $.ajaxSettings.async = false;
-            $.get('../../../mock/orders.json', function(result){
+            $.get('./../../mock/orders.json', function(result){
                 console.info(result);
                 data = result.data.digestlist || [];
             })

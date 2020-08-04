@@ -16,7 +16,7 @@
         _getData: function(){
             var oTypes = [];
             $.ajaxSettings.async = false;
-            $.get('../../../../../mock/food.json', function(result){
+            $.get('./../../../../../mock/food.json', function(result){
                 oTypes = result.data.food_spu_tags;
             })
             $.ajaxSettings.async = true;

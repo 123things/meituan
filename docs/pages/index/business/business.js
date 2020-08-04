@@ -43,7 +43,7 @@ BusinessList.prototype = {
     _getData:function(){
         var data = [];
         $.ajaxSettings.async = false;
-        $.get('../../../mock/homelist.json', function(result){
+        $.get('./../../mock/homelist.json', function(result){
              data = result.data.poilist || [];
         });
         $.ajaxSettings.async = true;
